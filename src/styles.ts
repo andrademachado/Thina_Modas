@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const cores={
     branco: '#fff',
@@ -26,4 +26,9 @@ export const GlobalCss = createGlobalStyle`
     }
 `
 
+export const Container = styled.div`
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+`
 

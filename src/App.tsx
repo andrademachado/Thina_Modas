@@ -1,14 +1,16 @@
 import Header from "./components/Header"
-import { GlobalCss } from "./styles"
+import Topo from "./components/Topo"
+import { Container, GlobalCss, } from "./styles"
 
 function App() {
 
   return (
         <>
         <GlobalCss />
-      <div>
-        <Header />
-      </div>
+        <Topo/>
+        <Container>
+          <Header />
+        </Container>
       
     </>
   )
