@@ -1,12 +1,13 @@
+import Header from "./components/Header"
 import { GlobalCss } from "./styles"
 
 function App() {
 
   return (
         <>
-        <GlobalCss/>
+        <GlobalCss />
       <div>
-        <h1>Thina Modas</h1>
+        <Header />
       </div>
       
     </>
