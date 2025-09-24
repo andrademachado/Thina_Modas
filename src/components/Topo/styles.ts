@@ -3,7 +3,7 @@ import { cores} from '../../styles'
 
 export const TopoInfo = styled.div`
     background-color: ${cores.vinho};
-    padding: 12px;
+    padding: 10px;
     width: 100%;
 `
 export const ContainerFrete = styled.div`
@@ -13,11 +13,11 @@ export const ContainerFrete = styled.div`
     gap: 20px;               /* Espaço entre imagem e texto */
 `
 export const InfoFrete = styled.h5`
-color: ${cores.branco};
+    color: ${cores.branco};
     margin: 0;              
-    padding: 0;             
+    padding: 0;
 `
 export const Frete = styled.img`
     width: 33px;
-    height: 22px;
+    height: 18px;
 `

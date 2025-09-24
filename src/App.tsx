@@ -3,7 +3,6 @@ import Topo from "./components/Topo"
 import { Container, GlobalCss, } from "./styles"
 
 function App() {
-
   return (
         <>
         <GlobalCss />

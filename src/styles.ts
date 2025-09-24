@@ -12,12 +12,12 @@ export const cores={
     vinho: '#79191D'
 }
 
-export const GlobalCss = createGlobalStyle`
+export const GlobalCss = createGlobalStyle`    
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family:  Roboto flex, sans-serif;
+        font-family:  'Roboto', sans-serif;
     }
 
     body {
