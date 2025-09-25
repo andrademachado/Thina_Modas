@@ -5,18 +5,17 @@ import sacola from '../../assets/images/Icones/SacolaVector.svg'
 
 const Header = () => (
     <HeaderBar>
-        <Logo>
+        <Logo href="#">
             < img src={logo} alt='Tina Modas' />
         </Logo>
-        
         <Pesquisa>
             <CampoPesquisar type="text" placeholder='Pesquisar produto' />
             <Lupa>
                 <img src={lupa} alt="pesquisar" />
             </Lupa>
         </Pesquisa>
-        <Sacola>
-            <img src={sacola} alt="Carrinho de compras"  />
+        <Sacola href="#">
+            <img src={sacola} alt="Carrinho de compras" />
         </Sacola>
         <MenuNav>
             <ul>
@@ -28,7 +27,6 @@ const Header = () => (
                 <li><a href="#">MODA ÍNTIMA</a></li>
             </ul>
         </MenuNav>
-                
     </HeaderBar>
 )
 export default Header

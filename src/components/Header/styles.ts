@@ -13,15 +13,17 @@ export const HeaderBar = styled.header`
     padding: 5px 0;
     gap: 10px;
     padding: 5px 0;
+
     
+
 `
-export const Logo = styled.button`
+export const Logo = styled.a`
     grid-area: logo;
     height: 126px;
     cursor: pointer;
     background: none;
     border: none;
-    margin-top: 13px;
+    margin-top: 20px;
 `
 export const Pesquisa = styled.form`
     grid-area: search;
@@ -55,14 +57,14 @@ export  const Lupa = styled.button`
     background: none;
     border: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 6x;
 
     img {
         width: 20px;
         height: 20px;
     }
 `
-export const Sacola = styled.button`
+export const Sacola = styled.a`
     grid-area: bag;
     cursor: pointer;
     background: none;
@@ -97,10 +99,11 @@ export const MenuNav = styled.nav`
     a{
         text-decoration: none;
         color: ${cores.pretoCinza};
-        font-family: 'Roboto flex', 'sans-serif';        
+        font-family: 'Roboto flex', 'sans-serif';
         font-weight: 300;
-        font-size: 17px;
+        font-size: 15px;
         padding: 8px 12px;
         white-space: nowrap;
+        letter-spacing: 1.3px;
     }
 `
