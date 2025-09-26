@@ -25,29 +25,35 @@ justify-content: center;
 }
 `
 
-export const BannerContent = styled.div`
+export const BannerContent = styled.div<{
+    fontFamily?: string;
+    textColor?: string;
+    titleLetterSpacing?: string;
+    subtitleLetterSpacing?:string;
+}>`
+    
     position: relative;
     z-index: 2;
     text-align: center;
-    color: white;
+    color: ${props => props.textColor || 'white'};
     max-width: 600px;
     padding: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ${props => props.fontFamily || "'Montserrat', sans-serif"};
     
 
     h2{
         font-size: 3rem;
         margin-bottom: 1rem;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
+        letter-spacing: ${props => props.titleLetterSpacing || '1.4px'};
     }
 
     p{
         font-size: 1.5rem;
         margin-bottom: 2rem;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
+        letter-spacing: ${props => props.subtitleLetterSpacing || '1.4px'};
     }
 `
