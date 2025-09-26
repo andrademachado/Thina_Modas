@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const Imagem = styled.div`
 width: 100%;
-height: 500px;
+height: 560px;
 background-size: cover;
 background-repeat: no-repeat;
 position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
+
 
 
 &::before {
@@ -19,6 +20,8 @@ justify-content: center;
     right: 0;
     bottom: 0;
     background-attachment: rgba(0,0,0,0.4);
+    
+
 }
 `
 
@@ -30,6 +33,7 @@ export const BannerContent = styled.div`
     max-width: 600px;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
+    
 
     h2{
         font-size: 3rem;

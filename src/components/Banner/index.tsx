@@ -11,10 +11,10 @@ import 'swiper/css/scrollbar';
 import { Button } from '../Button';
 import { Imagem, BannerContent } from './styles';
 
-import banner1 from '../../assets/images/Banner/THINA.png';
-import banner2 from '../../assets/images/Banner/ACHADINHOS6.png';
-import banner3 from '../../assets/images/Banner/THINA KIDS.4png.png';
-import banner4 from '../../assets/images/Banner/Baner2.png';
+import banner1 from '../../assets/images/Banner/THINA_NOVO.png';
+import banner2 from '../../assets/images/Banner/ACHADINHO2.png';
+import banner3 from '../../assets/images/Banner/kids.png';
+import banner4 from '../../assets/images/Banner/Vestidos_evangelicas.png';
 
 const Banner = () => {
     const banners = [
