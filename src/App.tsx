@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Topo from './components/Topo';
 import { Container, GlobalCss } from './styles';
+import ProductList from './components/ProductList';
 
 // Layout que mostra topo/header e o conteúdo das rotas via <Outlet />
 const RootLayout: React.FC = () => (
@@ -26,7 +27,16 @@ const rotas = createBrowserRouter([
     path: '/',
     element: <RootLayout />,
     children: [
-      { index: true, element: <Banner /> },           // rota "/"
+      { index: true, element: 
+        <>
+          <Banner />
+          <>
+          <ProductList title="DESTAQUES" />
+          <ProductList title="OFERTAS" />
+          </>
+        </>
+      
+     },           // rota "/"
       { path: 'thina', element: <div>Thina (placeholder)</div> },
       { path: 'achadinhos', element: <div>Achadinhos (placeholder)</div> },
       { path: 'thina-kids', element: <div>Thina Kids (placeholder)</div> },

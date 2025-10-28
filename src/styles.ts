@@ -1,15 +1,15 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const cores={
-    branco: '#fff',
-    preto: '#0000',
-    pretoCinza: '#000000A8',
-    cinza: '#00000075',
-    rosa: '#fbdeea',
-    rosaBranco: '#F9F5F4',
-    marrom: '#be9061',
-    verde: '#027C3F',
-    vinho: '#79191D'
+    branco: '#ffffff',
+    preto: 'rgba(0, 0, 0, 1)',
+    pretoCinza: 'rgba(0, 0, 0, 0.66)',
+    cinza: 'rgba(0, 0, 0, 0.46)',
+    rosa: 'rgba(251, 222, 234, 1)',
+    rosaBranco: 'rgba(249, 245, 244, 1)',
+    marrom: 'rgba(190, 144, 97, 1)',
+    verde: 'rgba(2, 124, 63, 1)',
+    vinho:'rgba(121, 25, 29, 1)'
 }
 
 export const GlobalCss = createGlobalStyle`    
@@ -45,4 +45,5 @@ export const Container = styled.div`
 max-width: 1024px;
 width: 100%;
 margin: 0 auto;
+padding: 0 24px;
 `

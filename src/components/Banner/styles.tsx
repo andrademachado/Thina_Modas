@@ -45,7 +45,7 @@ export const SwiperWrapper = styled.div`
 export const Imagem = styled.div<{ overlayOpacity?: number }>`
   width: 100%;
   min-height: 320px;
-  height: min(80vh, 700px);
+  height: min(80vh, 800px);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
