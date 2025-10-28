@@ -1,11 +1,10 @@
 // src/App.tsx (substitua inteiro por este)
 import React from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import Banner from './components/Banner';
 import Header from './components/Header';
 import Topo from './components/Topo';
 import { Container, GlobalCss } from './styles';
-import ProductList from './components/ProductList';
+import Home from './pages/Home';
 
 // Layout que mostra topo/header e o conteúdo das rotas via <Outlet />
 const RootLayout: React.FC = () => (
@@ -29,11 +28,7 @@ const rotas = createBrowserRouter([
     children: [
       { index: true, element: 
         <>
-          <Banner />
-          <>
-          <ProductList title="DESTAQUES" />
-          <ProductList title="OFERTAS" />
-          </>
+        <Home />
         </>
       
      },           // rota "/"
