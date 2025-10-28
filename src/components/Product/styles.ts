@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { cores } from "../../styles";
 
 export const  Card = styled.div`
-    background-color: red;
+    background-color: ${cores.branco};
     padding: 12px;
     display: flex;
     flex-direction: column;
