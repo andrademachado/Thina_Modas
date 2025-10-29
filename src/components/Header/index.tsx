@@ -27,12 +27,12 @@ const Header: React.FC = () => (
 
         <MenuNav>
             <ul>
-                <li><Link to="/categoria/feminino">FEMININO</Link></li>
-                <li><Link to="/categoria/moda-evangelica">MODA EVANGÉLICA</Link></li>
-                <li><Link to="/categoria/masculino">MASCULINO</Link></li>
-                <li><Link to="/categoria/infantil">INFANTIL</Link></li>
-                <li><Link to="/categoria/jeans">JEANS</Link></li>
-                <li><Link to="/categoria/moda-intima">MODA ÍNTIMA</Link></li>
+                <li><Link to="/feminino">FEMININO</Link></li>
+                <li><Link to="/modaevangelica">MODA EVANGÉLICA</Link></li>
+                <li><Link to="/masculino">MASCULINO</Link></li>
+                <li><Link to="/infantil">INFANTIL</Link></li>
+                <li><Link to="/jeans">JEANS</Link></li>
+                <li><Link to="/modaintima">MODA ÍNTIMA</Link></li>
             </ul>
         </MenuNav>
     </HeaderBar>

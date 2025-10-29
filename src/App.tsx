@@ -5,6 +5,12 @@ import Header from './components/Header';
 import Topo from './components/Topo';
 import { Container, GlobalCss } from './styles';
 import Home from './pages/Home';
+import Feminino from './pages/Feminino';
+import ModaEvangelica from './pages/ModaEvangelica';
+import Masculino from './pages/Masculino';
+import Infantil from './pages/Infantil';
+import Jeans from './pages/Jeans';
+import ModaIntima from './pages/ModaIntima';
 
 // Layout que mostra topo/header e o conteúdo das rotas via <Outlet />
 const RootLayout: React.FC = () => (
@@ -26,12 +32,21 @@ const rotas = createBrowserRouter([
     path: '/',
     element: <RootLayout />,
     children: [
-      { index: true, element: 
-        <>
-        <Home />
-        </>
+      { index: true, element:<Home />},
+
+      {path:'/feminino', element: <Feminino/>},
+      {path: '/ModaEvangelica', element: < ModaEvangelica />},
+      { path: '/masculino', element: < Masculino /> },
+      { path: '/infantil', element: < Infantil /> },
+      { path: '/jeans', element: < Jeans /> },
+      { path: '/modaintima', element: < ModaIntima /> },
+
       
-     },           // rota "/"
+      
+      
+    
+                // rota "/"
+
       { path: 'thina', element: <div>Thina (placeholder)</div> },
       { path: 'achadinhos', element: <div>Achadinhos (placeholder)</div> },
       { path: 'thina-kids', element: <div>Thina Kids (placeholder)</div> },
