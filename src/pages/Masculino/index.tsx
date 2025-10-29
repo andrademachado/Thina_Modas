@@ -2,40 +2,66 @@ import ProductList from "../../components/ProductList"
 import type Thina from "../../models/Thina"
 
 import blusaMasculina from '../../assets/images/DESTAQUE/blusa_masculina.png'
-import vestido from '../../assets/images/VESTIDOS/evangelica.png'
-import bermuda from '../../assets/images/Feminino/Bermuda.png'
-import esmeralda from '../../assets/images/OFERTAS/CONJ_ESMERALDA.png'
+
 
 
 
 const destaques: Thina[] = [
     {
-        id:1,
+        id:25,
         title:'Blusa Masculina de Algodão',
         preco:'R$99,99',
         infos:'até 3X sem Juros',
         image: blusaMasculina,
     },
     {
-        id: 2,
+        id: 26,
         title: 'Vestido Longo de Viscose Bordado',
         preco: 'R$99,99',
         infos: 'até 3X sem Juros',
-        image: vestido,
+        image: blusaMasculina,
     },
     {
-        id: 3,
+        id: 27,
         title: 'Bermuda de lycra',
         preco: 'R$99,99',
         infos: 'até 3X sem Juros',
-        image: bermuda,
+        image: blusaMasculina,
     },
     {
-        id: 4,
+        id: 28,
         title: 'Conjunto Esmeralda de Viscose',
         preco: 'R$99,99',
         infos: 'até 3X sem Juros',
-        image: esmeralda,
+        image: blusaMasculina,
+    },
+    {
+        id: 29,
+        title: 'Blusa Masculina de Algodão',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: blusaMasculina,
+    },
+    {
+        id: 30,
+        title: 'Vestido Longo de Viscose Bordado',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: blusaMasculina,
+    },
+    {
+        id: 31,
+        title: 'Bermuda de lycra',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: blusaMasculina,
+    },
+    {
+        id: 32,
+        title: 'Conjunto Esmeralda de Viscose',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: blusaMasculina,
     },
     
 ]

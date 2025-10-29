@@ -1,10 +1,7 @@
 import ProductList from "../../components/ProductList"
 import type Thina from "../../models/Thina"
 
-import blusaMasculina from '../../assets/images/DESTAQUE/blusa_masculina.png'
-import vestido from '../../assets/images/VESTIDOS/evangelica.png'
 import bermuda from '../../assets/images/Feminino/Bermuda.png'
-import esmeralda from '../../assets/images/OFERTAS/CONJ_ESMERALDA.png'
 
 
 
@@ -14,14 +11,14 @@ const destaques: Thina[] = [
         title:'Blusa Masculina de Algodão',
         preco:'R$99,99',
         infos:'até 3X sem Juros',
-        image: blusaMasculina,
+        image: bermuda,
     },
     {
         id: 2,
         title: 'Vestido Longo de Viscose Bordado',
         preco: 'R$99,99',
         infos: 'até 3X sem Juros',
-        image: vestido,
+        image: bermuda,
     },
     {
         id: 3,
@@ -35,7 +32,63 @@ const destaques: Thina[] = [
         title: 'Conjunto Esmeralda de Viscose',
         preco: 'R$99,99',
         infos: 'até 3X sem Juros',
-        image: esmeralda,
+        image: bermuda,
+    },
+    {
+        id: 5,
+        title: 'Blusa Masculina de Algodão',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 6,
+        title: 'Vestido Longo de Viscose Bordado',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 7,
+        title: 'Bermuda de lycra',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 8,
+        title: 'Conjunto Esmeralda de Viscose',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 9,
+        title: 'Blusa Masculina de Algodão',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 10,
+        title: 'Vestido Longo de Viscose Bordado',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 11,
+        title: 'Bermuda de lycra',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
+    },
+    {
+        id: 12,
+        title: 'Conjunto Esmeralda de Viscose',
+        preco: 'R$99,99',
+        infos: 'até 3X sem Juros',
+        image: bermuda,
     },
     
 ]
