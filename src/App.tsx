@@ -35,7 +35,7 @@ const rotas = createBrowserRouter([
       { index: true, element:<Home />},
 
       {path:'/feminino', element: <Feminino/>},
-      {path: '/ModaEvangelica', element: < ModaEvangelica />},
+      {path: '/modaevangelica', element: < ModaEvangelica />},
       { path: '/masculino', element: < Masculino /> },
       { path: '/infantil', element: < Infantil /> },
       { path: '/jeans', element: < Jeans /> },
