@@ -6,7 +6,7 @@ import blusaMasculina from '../../assets/images/DESTAQUE/blusa_masculina.png'
 import vestido from '../../assets/images/VESTIDOS/evangelica.png'
 import bermuda from '../../assets/images/Feminino/Bermuda.png'
 import esmeralda from '../../assets/images/OFERTAS/CONJ_ESMERALDA.png'
-import calça from '../../assets/images/jeans/Jeans.jpg'
+import calca from '../../assets/images/jeans/Jeans.jpg'
 import blusa from '../../assets/images/BLUSAS/Blusas.png'
 import infantil from '../../assets/images/Infantil/SAIA_INFANTIL.png'
 import evangelica from '../../assets/images/SHORTS/jeans.2jpg.jpg'
@@ -50,7 +50,7 @@ const ofertas : Thina[] = [
         title: 'Calça Jeans Masculina',
         preco: 'R$99,99',
         infos: 'até 3X sem Juros',
-        image: calça,
+        image: calca,
     },
     {
         id: 6,
