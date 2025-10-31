@@ -23,6 +23,7 @@ export const GlobalCss = createGlobalStyle`
         clip: rect(0, 0, 0, 0) !important;
         white-space: nowrap !important;
         border: 0 !important;
+        list-style: none !important;
     }
 
     html, body, #root { height: 100%; margin: 0; padding: 0; }

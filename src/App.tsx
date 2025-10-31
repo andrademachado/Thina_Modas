@@ -11,6 +11,14 @@ import Masculino from './pages/Masculino';
 import Infantil from './pages/Infantil';
 import Jeans from './pages/Jeans';
 import ModaIntima from './pages/ModaIntima';
+import Blusas from './pages/Blusas';
+import Shorts from './pages/Shorts';
+import Vestidos from './pages/Vestidos';
+import Camisas from './pages/Camisas';
+import Calcas from './pages/Calcas';
+import Achadinhos from './pages/Achadinhos';
+import ThinaKids from './pages/ThinaKids';
+import NovaColecao from './pages/NovaColecao';
 
 // Layout que mostra topo/header e o conteúdo das rotas via <Outlet />
 const RootLayout: React.FC = () => (
@@ -18,11 +26,14 @@ const RootLayout: React.FC = () => (
     <GlobalCss />
     <Topo />
     <Container>
-      <Header />
+      <Header /> 
     </Container>
+    
     <main>
       <Outlet />
     </main>
+    
+    
   </>
 );
 
@@ -40,8 +51,14 @@ const rotas = createBrowserRouter([
       { path: '/infantil', element: < Infantil /> },
       { path: '/jeans', element: < Jeans /> },
       { path: '/modaintima', element: < ModaIntima /> },
-
-      
+      { path: '/blusas', element: < Blusas /> },
+      { path: '/shorts', element: < Shorts /> },
+      { path: '/vestidos', element: < Vestidos /> },
+      { path: '/camisas', element: < Camisas /> },
+      { path: '/calcas', element: < Calcas /> },
+      { path: '/achadinhos', element: < Achadinhos /> },
+      { path: '/thina-kids', element: < ThinaKids /> }, 
+      { path: '/nova-colecao', element: < NovaColecao /> },
       
       
     

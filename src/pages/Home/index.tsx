@@ -1,4 +1,3 @@
-import Banner from "../../components/Banner"
 import ProductList from "../../components/ProductList"
 import type Thina from "../../models/Thina"
 
@@ -10,6 +9,8 @@ import calca from '../../assets/images/jeans/Jeans.jpg'
 import blusa from '../../assets/images/BLUSAS/Blusas.png'
 import infantil from '../../assets/images/Infantil/SAIA_INFANTIL.png'
 import evangelica from '../../assets/images/SHORTS/jeans.2jpg.jpg'
+import MenuNavigation from "../../components/MenuNavigation"
+import Banner from "../../components/Banner"
 
 
 
@@ -77,8 +78,9 @@ const ofertas : Thina[] = [
 ]
 
 const Home = () => (
-    <>
-        <Banner />        
+    <> 
+        <Banner/>
+        <MenuNavigation />       
         <ProductList thina={destaques} title="DESTAQUES" />
         <ProductList thina={ofertas} title="OFERTAS " />
     </>
