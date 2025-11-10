@@ -10,7 +10,6 @@ export const HeaderBar = styled.header`
     grid-template-columns:  auto 1fr auto;
     align-items: start;
     justify-content: space-between;
-    padding: 5px 0;
     gap: 10px;
     padding: 5px 0;
 

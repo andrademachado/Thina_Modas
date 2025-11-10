@@ -26,11 +26,12 @@ const RootLayout: React.FC = () => (
     <GlobalCss />
     <Topo />
     <Container>
-      <Header /> 
+      <Header />
     </Container>
     
-    <main>
-      <Outlet />
+    
+    <main>      
+      <Outlet />      
     </main>
     
     

@@ -11,6 +11,7 @@ import infantil from '../../assets/images/Infantil/SAIA_INFANTIL.png'
 import evangelica from '../../assets/images/SHORTS/jeans.2jpg.jpg'
 import MenuNavigation from "../../components/MenuNavigation"
 import Banner from "../../components/Banner"
+import BannerInfo from "../../components/BannerInfo"
 
 
 
@@ -80,6 +81,7 @@ const ofertas : Thina[] = [
 const Home = () => (
     <> 
         <Banner/>
+        <BannerInfo />
         <MenuNavigation />       
         <ProductList thina={destaques} title="DESTAQUES" />
         <ProductList thina={ofertas} title="OFERTAS " />
