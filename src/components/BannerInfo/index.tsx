@@ -1,11 +1,11 @@
 import { InfoCard, Image, Info, Item, Svg } from "./styles"
 import { Container } from "../../styles"
-import TextoFrete from '../../assets/images/Icones/TextoFrete1.svg'
+import TextoFrete from '../../assets/images/Icones/New_Text_Fret1.svg'
 import frete from '../../assets/images/Icones/Frete.svg'
 import cartao from '../../assets/images/Icones/CartaoInfo.svg'
 import zap from '../../assets/images/Icones/zapInfo.svg'
-import TextCartao from '../../assets/images/Icones/InfoPacela2.svg'
-import TextoZap from '../../assets/images/Icones/INFOnovo2.svg'
+import TextCartao from '../../assets/images/Icones/New_Text_Catao2.svg'
+import TextoZap from '../../assets/images/Icones/New_Text_Zap3.svg'
 
 
 const BannerInfo =()=> (

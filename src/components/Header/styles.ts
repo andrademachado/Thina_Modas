@@ -12,9 +12,6 @@ export const HeaderBar = styled.header`
     justify-content: space-between;
     gap: 10px;
     padding: 5px 0;
-
-    
-
 `
 export const Logo = styled.a`
     grid-area: logo;

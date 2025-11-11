@@ -20,10 +20,11 @@ export const Title = styled.h2`
     font-weight: bold;
 `
 export const TituloSecao = styled.h2`
-  font-size: 28px;          /* tamanho do título */
-  font-weight: 700;         /* negrito para destaque */
-  text-align: center;       /* centraliza horizontalmente */
-  margin: 24px 0;           /* espaço acima e abaixo */
-  width: 100%;              /* ocupa toda a largura do container */
-  color: ${cores.pretoCinza}; /* cor consistente */
+    font-size: 24px;          /* tamanho do título */
+    font-weight: 700;         /* negrito para destaque */
+    text-align: center;       /* centraliza horizontalmente */
+    margin: 104px 0;           /* espaço acima e abaixo */
+    width: 100%;              /* ocupa toda a largura do container */
+    color: ${cores.pretoCinza}; /* cor consistente */
+    letter-spacing: 10px;
 `;
