@@ -12,19 +12,16 @@ const Header: React.FC = () => (
         <Logo as={Link} to="/">
             <img src={logo} alt="Tina Modas" />
         </Logo>
-
         <Pesquisa>
             <CampoPesquisar type="text" placeholder="Pesquisar produto" />
             <Lupa type="button" aria-label="Pesquisar">
                 <img src={lupa} alt="pesquisar" />
             </Lupa>
         </Pesquisa>
-
         {/* Sacola (carrinho) como Link para /carrinho */}
         <Sacola as={Link} to="/carrinho" aria-label="Carrinho">
             <img src={sacola} alt="Carrinho de compras" />
         </Sacola>
-
         <MenuNav>
             <ul>
                 <li><Link to="/feminino">FEMININO</Link></li>
