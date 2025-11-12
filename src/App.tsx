@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Topo from './components/Topo';
 import Rotas from './routes';
 import { GlobalCss, Container } from './styles';
+import Rodape from './components/Rodape';
+import Footer from './components/Footer';
 
 function App() {  
   return (
@@ -12,9 +14,11 @@ function App() {
       <div className='container'>
         <Container>
         <Header/>
-        </Container>
-      </div>
+        </Container>        
+      </div>      
         <Rotas/>
+        <Footer />
+        <Rodape />
     </BrowserRouter>
   )
   
